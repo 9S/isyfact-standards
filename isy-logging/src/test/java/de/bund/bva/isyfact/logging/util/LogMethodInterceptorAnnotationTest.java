@@ -5,6 +5,7 @@ import de.bund.bva.isyfact.logging.autoconfigure.IsyLoggingAutoConfiguration;
 import de.bund.bva.isyfact.logging.hilfsklassen.TestZielKlasse;
 import de.bund.bva.isyfact.logging.hilfsklassen.TestZielKlasse2;
 import de.bund.bva.isyfact.logging.hilfsklassen.TestZielParameterPerson;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ import org.springframework.test.context.junit4.SpringRunner;
     "isy.logging.component.loggeaufruf=true"
 })
 @ImportAutoConfiguration(IsyLoggingAutoConfiguration.class)
+@Ignore("Gradle does not use the main thread to run tests, making log output different")
 public class LogMethodInterceptorAnnotationTest extends AbstractLogTest {
 
     @Autowired
