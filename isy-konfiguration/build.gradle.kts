@@ -9,6 +9,7 @@ plugins {
 dependencies {
     implementation(project(":isy-logging"))
     implementation(project(":isy-task"))
+    implementation(project(":isy-exception-core"))
     implementation("org.springframework:spring-context:5.3.21")
     implementation("org.springframework.boot:spring-boot:2.7.1")
     implementation("org.springframework.boot:spring-boot-autoconfigure:2.7.1")
