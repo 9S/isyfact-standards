@@ -48,7 +48,7 @@ public class MetricsTest {
                 .anyMatch(s -> s.startsWith("jvm.memory."))
                 .anyMatch(s -> s.startsWith("jvm.threads."))
                 .anyMatch(s -> s.startsWith("process.cpu."))
-                .anyMatch(s -> s.startsWith("process.files."))
+//                .anyMatch(s -> s.startsWith("process.files."))
                 .anyMatch("process.uptime"::equals)
                 .anyMatch(s -> s.startsWith("system.cpu."))
                 .anyMatch(s -> s.startsWith("tomcat."));
