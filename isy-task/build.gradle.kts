@@ -25,6 +25,9 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-test:2.7.1")
     testImplementation("org.junit.vintage:junit-vintage-engine:5.8.2")
     testImplementation("org.hibernate.validator:hibernate-validator:6.2.3.Final")
+    testImplementation("ch.qos.logback:logback-classic:1.2.8")
+    testImplementation("ch.qos.logback:logback-core:1.2.8")
+    testImplementation("org.slf4j:slf4j-api:1.7.36")
 }
 
 description = "IsyFact Task Scheduling"
