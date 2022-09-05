@@ -63,8 +63,8 @@ import ch.qos.logback.core.joran.spi.JoranException;
  * The processing logic is divided into a Batchrahmen and a Ausführungsbean. See the Detailkonzept Batch
  * of the Migrationsstufe 1.
  * <p>
- * Command line arguments must always have the form <tt>-ParameterName ParameterValue</tt> oder
- * <tt>-ParameterName</tt>. The following parameters are relevant for Batchrahmen:
+ * Command line arguments must always have the form <code>-ParameterName ParameterValue</code> oder
+ * <code>-ParameterName</code>. The following parameters are relevant for Batchrahmen:
  * <ul>
  * <li>cfg &lt;filename&gt;: Name of property file
  * <li>start: Start batch in "Start" mode.

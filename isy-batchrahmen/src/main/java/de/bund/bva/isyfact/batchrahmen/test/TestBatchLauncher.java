@@ -43,12 +43,12 @@ import de.bund.bva.isyfact.logging.LogKategorie;
  *
  * Example:
  *
- * <code><pre>
+ * <code>
  * public void testBatch1() {
  *   TestBatchLauncher batchLauncher = new TestBatchLauncher("/resources/batch/batch-1-config.properties");
  *   assertEquals(0, batchLauncher.starteBatch(BatchStartTyp.START, "/batch-1_out.xml", null ));
  * }
- * </pre></code>
+ * </code>
  *
  */
 public class TestBatchLauncher {

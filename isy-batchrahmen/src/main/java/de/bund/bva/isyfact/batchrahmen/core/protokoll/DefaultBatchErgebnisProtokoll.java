@@ -168,7 +168,6 @@ public class DefaultBatchErgebnisProtokoll implements BatchErgebnisProtokoll {
 
     /**
      * {@inheritDoc}
-     * @throws BatchProtokollException
      */
     public void ergaenzeMeldung(VerarbeitungsMeldung meldung) {
         if (meldung.getTyp().equals(MeldungTyp.FEHLER)) {

@@ -68,7 +68,7 @@ public class BatchKonfiguration {
 
     /**
      * liest die Dateinamen fuer die Spring-Konfiguration des Batchrahmens. Diese Dateinamen haben den
-     * Property-Schlüssel <tt>Batchrahmen.SpringDateien.&lt;N&gt;</tt>.
+     * Property-Schlüssel <code>Batchrahmen.SpringDateien.&lt;N&gt;</code>.
      *
      * @return Liste der Dateinamen.
      */
@@ -78,7 +78,7 @@ public class BatchKonfiguration {
 
     /**
      * liest die Dateinamen fuer die Spring-Konfiguration der Anwendung. Diese Dateinamen haben den
-     * Property-Schlüssel <tt>Anwendung.SpringDateien.&lt;N&gt;</tt>.
+     * Property-Schlüssel <code>Anwendung.SpringDateien.&lt;N&gt;</code>.
      * @return Liste der Dateinamen.
      */
     public List<String> getAnwendungSpringKonfigFiles() {
