@@ -11,6 +11,7 @@ dependencies {
     implementation(project(":isy-logging"))
     implementation("org.springframework:spring-beans:5.3.21")
     implementation("org.springframework:spring-web:5.3.21")
+    implementation("org.springframework.boot:spring-boot-autoconfigure:2.7.3")
     testImplementation("org.mockito:mockito-core:4.5.1")
     testImplementation("org.springframework:spring-test:5.3.21")
     testImplementation("org.springframework.boot:spring-boot-test:2.7.1")
