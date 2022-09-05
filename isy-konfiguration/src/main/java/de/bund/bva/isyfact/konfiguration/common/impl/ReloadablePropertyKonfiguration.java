@@ -37,11 +37,11 @@ import de.bund.bva.isyfact.konfiguration.common.konstanten.EreignisSchluessel;
 
 /**
  * Diese Klasse bietet einen typsicheren Zugriff auf eine Konfiguration {@link Konfiguration}. Dazu wird an
- * die Implementierung {@link PropertyKonfiguration} delegiert. <br/>
+ * die Implementierung {@link PropertyKonfiguration} delegiert. <br>
  * Die Methode {@link #checkAndUpdate()} kann regelmäßig aufgerufen werden, um Konfigurationsänderungen zu
- * erfassen. <br/>
+ * erfassen. <br>
  * Um Konfigurationsänderungen in der Anwendung mitzubekommen, sollten Konfigurationswerte nicht in
- * Instanzvariablen sondern direkt per getAsXYZ aus dieser Klasse ausgelesen werden. <br/>
+ * Instanzvariablen sondern direkt per getAsXYZ aus dieser Klasse ausgelesen werden. <br>
  * Falls das nicht möglich ist, kann sich eine interessierte Komponente per
  * {@link #addKonfigurationChangeListener(KonfigurationChangeListener)} als Listener für
  * Konfigurationsänderungen registrieren.

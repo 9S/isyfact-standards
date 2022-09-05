@@ -41,11 +41,11 @@ public class KonfigurationParameterException extends KonfigurationException {
      *            zu laden.
      * @param cause
      *            Der Grund. Throwable wird gespeichert hfür die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      * @param parameter
      *            Die variablen Parameterwerte. Parameterwerte f&uml;r die möglichen Variablen in einer
-     *            Fehler-Nachricht. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
+     *            Fehler-Nachricht. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
      *            ersetzen sind.            
      */
     public KonfigurationParameterException(String ausnahmeId, Throwable cause, String... parameter) {
@@ -65,7 +65,7 @@ public class KonfigurationParameterException extends KonfigurationException {
      *            zu laden.
      * @param cause
      *            Der Grund. Throwable wird gespeichert hfür die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      */
     public KonfigurationParameterException(String ausnahmeId, Throwable cause) {
@@ -102,7 +102,7 @@ public class KonfigurationParameterException extends KonfigurationException {
      *            laden.
      * @param parameter
      *            Die variablen Parameterwerte. Parameterwerte f&uml;r die möglichen Variablen in einer
-     *            Fehler-Nachricht. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
+     *            Fehler-Nachricht. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
      *            ersetzen sind.
      */
     public KonfigurationParameterException(String ausnahmeId, String... parameter) {

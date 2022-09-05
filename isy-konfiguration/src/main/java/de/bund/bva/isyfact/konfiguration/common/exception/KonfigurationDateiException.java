@@ -42,11 +42,11 @@ public class KonfigurationDateiException extends KonfigurationException {
      *            zu laden.
      * @param cause
      *            Der Grund. Throwable wird gespeichert hfür die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      * @param parameter
      *            Die variablen Parameterwerte. Parameterwerte für die möglichen Variablen in einer
-     *            Fehler-Nachricht. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
+     *            Fehler-Nachricht. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
      *            ersetzen sind.            
      */
     public KonfigurationDateiException(String ausnahmeId, Throwable cause, String... parameter) {
@@ -66,7 +66,7 @@ public class KonfigurationDateiException extends KonfigurationException {
      *            zu laden.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      */
     public KonfigurationDateiException(String ausnahmeId, Throwable throwable) {
@@ -103,7 +103,7 @@ public class KonfigurationDateiException extends KonfigurationException {
      *            laden.
      * @param parameter
      *            Die variablen Parameterwerte. Parameterwerte f&uml;r die möglichen Variablen in einer
-     *            Fehler-Nachricht. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
+     *            Fehler-Nachricht. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Variablen zu
      *            ersetzen sind.
      */
     public KonfigurationDateiException(String ausnahmeId, String... parameter) {
