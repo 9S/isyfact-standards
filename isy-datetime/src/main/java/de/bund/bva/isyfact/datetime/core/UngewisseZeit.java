@@ -214,8 +214,9 @@ public class UngewisseZeit {
      * Parst eine ungewisse Zeit.
      * <p>
      * Folgende Formate werden unterstützt:
-     * <p>
-     * <table summary="Unterstütze Formate" border="1">
+     * </p>
+     * <table border="1">
+     * <caption>Unterstütze Formate</caption>
      * <tr><th>Fall</th><th>Eingabe</th><th>Interner Zeitraum</th></tr>
      * <tr><td>Sekunde unbekannt</td><td>14:34:xx</td><td>14:34:00 – 14:34:59</td></tr>
      * <tr><td>Sekunde und Minute unbekannt</td><td>14:xx:xx</td><td>14:00:00 – 14:59:59</td></tr>

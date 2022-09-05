@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
  * Klasse zur formatierten Ausgabe von Datums-, Zeitwerten und Dauern.
  * <p>
  * Folgende Formate werden für Datum und Zeit unterstützt (Bestandteile in Klammern sind optional):
- * <p>
+ * </p>
  * <ul>
  *   <li>(Montag,) 17. Juli 2017 14:35:19 (MESZ)</li>
  *   <li>17.07.2017 14:35:19 (+02:00)</li>

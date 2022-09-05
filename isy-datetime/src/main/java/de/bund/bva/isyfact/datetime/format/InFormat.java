@@ -27,8 +27,9 @@ import java.util.regex.Pattern;
  * Folgende Formate werden unterstützt:
  * <p>
  * <b>Datum: &lt;Tag&gt;.&lt;Monat&gt;.&lt;Jahr&gt;</b>
- * <p>
- * <table summary="Unterstütze Formate für Datum" border="1">
+ * </p>
+ * <table border="1">
+ *   <caption>Unterstütze Formate für Datum</caption>
  *   <tr><th>Feld</th><th>Format</th><th>Beispiel</th><th>Pflichtfeld</th></tr>
  *   <tr><td>Tag</td><td>Ganzzahl (1-31)</td><td>3, 03, 14</td><td>Ja</td></tr>
  *   <tr><td>Monat</td><td>Ganzzahl (1-12)</td><td>5, 07, 11</td><td>Ja</td></tr>
@@ -36,8 +37,9 @@ import java.util.regex.Pattern;
  * </table>
  * <p>
  * <b>Zeit: &lt;Stunde&gt;:&lt;Minute&gt;:&lt;Sekunde&gt;.&lt;Sekundenbruchteile&gt; &lt;Zeitzone&gt;</b>
- * <p>
- * <table summary="Unterstütze Formate für Zeit" border="1">
+ * </p>
+ * <table border="1">
+ *   <caption>Unterstütze Formate für Zeit</caption>
  *   <tr><th>Feld</th><th>Format</th><th>Beispiel</th><th>Pflichtfeld</th></tr>
  *   <tr><td>Stunde</td><td>Ganzzahl (1-31)</td><td>3, 03, 14</td><td>Ja</td></tr>
  *   <tr><td>Minute</td><td>Ganzzahl (1-12)</td><td>5, 07, 11</td><td>Ja</td></tr>
@@ -47,8 +49,9 @@ import java.util.regex.Pattern;
  * </table>
  * <p>
  * <b>Dauer: &lt;Anzahl&gt;&lt;Zeiteinheit&gt; (&lt;Anzahl&gt;&lt;Zeiteinheit&gt; ...)</b>
- * <p>
- * <table summary="Unterstütze Einheiten für Dauer" border="1">
+ * </p>
+ * <table border="1">
+ *   <caption>Unterstütze Einheiten für Dauer</caption>
  *   <tr><th>Abkürzung</th><th>Zeiteinheit</th></tr>
  *   <tr><td>ms</td><td>Millisekunde</td></tr>
  *   <tr><td>s</td><td>Sekunde</td></tr>

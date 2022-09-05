@@ -156,8 +156,9 @@ public class UngewissesDatum {
      * Parst ein ungewisses Datum.
      * <p>
      * Folgende Formate werden unterstützt:
-     * <p>
-     * <table summary="Unterstütze Formate" border="1">
+     * </p>
+     * <table border="1">
+     * <caption>Unterstütze Formate</caption>
      * <tr><th>Fall</th><th>Eingabe mit 0</th><th>Eingabe mit x</th><th>Interner Zeitraum</th></tr>
      * <tr><td>Tag unbekannt</td><td>00.05.1966</td><td>xx.05.1966</td><td>1.5.1966 – 31.5.1966</td></tr>
      * <tr><td>Tag und Monat unbekannt</td><td>00.00.1966</td><td>xx.xx.1966</td><td>1.1.1966 – 31.12.1966</td></tr>

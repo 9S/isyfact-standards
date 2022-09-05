@@ -306,9 +306,10 @@ public class Zeitraum implements Serializable {
      * Parst einen String und erstellt daraus einen {@link Zeitraum}.
      * <p>
      * Folgende Eingaben im Format {@code "<1. Wert>, <2. Wert>"} sind möglich:
-     * <p>
+     * </p>
      *
-     * <table summary="Unterstütze Formate" border="1">
+     * <table border="1">
+     * <caption>Unterstütze Formate</caption>
      * <tr><th>1. Wert</th><th>2. Wert</th><th>Beispiel</th></tr>
      * <tr><td>Datumswer</td><td>Datumswert</td><td>12.7.2017 14:00, 13.09.2018 19:00</td></tr>
      * <tr><td>Datumswert</td><td>Dauer</td><td>12.8.2013, 14 d</td></tr>
