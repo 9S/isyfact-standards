@@ -49,15 +49,15 @@ public abstract class AbstractTransformator implements Transformator {
     private static final char[] REG_EX_META_CHARACTER = new char[] { '[', ']', '\\', '^', '$', '.', '|', '?',
         '*', '+', '-', (char) (Integer.valueOf("002D", 16).intValue()), '(', ')', '<', '>', '{', '}' };
 
-    /** Transformation table: Character -> StringBuffer. */
+    /** Transformation table: Character -&#62; StringBuffer. */
     protected Map transformationsTabelle = new HashMap();
 
     /**
-     * The category table with the valid characters of the transformer String(ZeichenKategorie) -> String[].
+     * The category table with the valid characters of the transformer String(ZeichenKategorie) -&#62; String[].
      */
     protected Map kategorieGueltigeZeichenTabelle = new HashMap();
 
-    /** A map that sorts valid characters based on their length: Integer -> (String) ArrayList. */
+    /** A map that sorts valid characters based on their length: Integer -&#62; (String) ArrayList. */
     protected Map laengeGueltigeZeichenMap = new HashMap();
 
     /** The standard replacement (if no entry is found in the transformation table). */

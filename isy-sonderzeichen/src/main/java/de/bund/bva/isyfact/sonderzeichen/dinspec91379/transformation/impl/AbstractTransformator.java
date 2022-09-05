@@ -53,13 +53,13 @@ public abstract class AbstractTransformator implements Transformator {
         '*', '+', '-', '(', ')', '<', '>', '{', '}' };
 
     /**
-     * Transformation table: Character -> Object, where the Object is typically a StringBuilder or a
+     * Transformation table: Character -&#62; Object, where the Object is typically a StringBuilder or a
      * KomplexeTransformation.
      */
     protected final Map<Character, Object> transformationsTabelle = new HashMap<>();
 
     /**
-     * The category table with the valid characters of the transformer String(ZeichenKategorie) -> String[].
+     * The category table with the valid characters of the transformer String(ZeichenKategorie) -&#62; String[].
      */
     protected final Map<String, String[]> kategorieGueltigeZeichenTabelle = new HashMap<>();
 

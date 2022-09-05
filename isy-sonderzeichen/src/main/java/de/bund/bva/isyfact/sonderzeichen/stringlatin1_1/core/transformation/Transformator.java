@@ -26,7 +26,7 @@ public interface Transformator {
      * Transforms a string. Ensures that the string has the specified length after the operation. There is no
      * distinction between whether the original string length has already exceeded the maximum or whether the
      * string was only lengthened by a transformation. <br> Returns <code> null </code> if the string is
-     * <code> null </ code > was passed.
+     * <code> null </code> was passed.
      *
      * Important! The same restrictions apply to non-BMP characters as we do to
      * {@link #transformiere(String)}
