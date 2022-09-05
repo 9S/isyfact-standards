@@ -12,6 +12,8 @@ dependencies {
     implementation(project(":isy-logging"))
     implementation("de.bund.bva.isyfact:isy-serviceapi-sst:1.10.0")
     implementation(project(":isy-task"))
+    implementation(project(":isy-exception-core"))
+    implementation(project(":isy-util"))
     implementation("org.springframework:spring-aop:5.3.21")
     implementation("org.springframework:spring-beans:5.3.21")
     implementation("org.springframework:spring-context:5.3.21")
