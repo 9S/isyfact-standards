@@ -31,6 +31,8 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-test:2.7.1")
     testImplementation("org.junit.vintage:junit-vintage-engine:5.8.2")
     testImplementation("com.h2database:h2:2.1.210")
+    testImplementation("org.springframework:spring-web:5.3.21")
+    testImplementation("de.bund.bva.isyfact:isy-serviceapi-sst:1.10.0")
     testImplementation(project(":isy-serviceapi-core"))
 }
 
