@@ -19,8 +19,6 @@ package de.bund.bva.isyfact.exception;
 /**
  * Abstrakte (<i>checked</i>) Hauptexception, welche als Basis für die abstrakten <b>fachlichen</b> Exceptions
  * (<i>checked</i>) auf Anwendungsebene verwendet wird.
- * <p>
- *
  */
 public abstract class BusinessException extends BaseException {
 
@@ -57,7 +55,7 @@ public abstract class BusinessException extends BaseException {
      *            Die Ausnahme-ID. Der Schlüssel der den Fehlertext identifiziert.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      * @param fehlertextProvider
      *            Die FehlertextProvider-Implementierung, welche verwendet wird, um eine Fehlertext zu laden.

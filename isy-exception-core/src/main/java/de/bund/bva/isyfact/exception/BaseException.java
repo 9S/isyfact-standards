@@ -27,7 +27,7 @@ import de.bund.bva.isyfact.exception.common.FehlertextUtil;
  * Die Applikationsspezifischen Exceptions sollen nicht von direkt von {@link BaseException} erben,
  * sondern von {@link BusinessException} (für fachliche checked Exceptions) oder
  * {@link TechnicalException} (für technische checked Exceptions).
- * <p>
+ * </p>
  *
  */
 public abstract class BaseException extends Exception {
@@ -74,7 +74,7 @@ public abstract class BaseException extends Exception {
      *            Die Ausnahme-ID. Der Schlüssel der den Fehlertext identifiziert.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      * @param fehlertextProvider
      *            Die FehlertextProvider-Implementierung, welche verwendet wird, um eine Fehlertext zu laden.

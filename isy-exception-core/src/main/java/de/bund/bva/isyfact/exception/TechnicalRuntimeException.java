@@ -29,7 +29,7 @@ import de.bund.bva.isyfact.exception.common.FehlertextUtil;
  * Fehler-IDs und die zugeordneten Texte in der Exception zu haben. Dies ist wichtig, da diese technischen
  * Exceptions in Transport-Exceptions umgewandelt werden, die zum Aufrufer durchgeroutet werden. Diese
  * wiederum müssen immer eine Ausnahme-ID besitzen.
- * <p>
+ * </p>
  *
  */
 public abstract class TechnicalRuntimeException extends RuntimeException {
@@ -78,7 +78,7 @@ public abstract class TechnicalRuntimeException extends RuntimeException {
      *            als Fehler-Nachricht für die Exception verwendet wird aus einem ResourceBundle zu laden.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert hfür die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      * @param fehlertextProvider
      *            Die FehlertextProvider-Implementierung, welche verwendet wird, um eine Fehlertext zu laden.
