@@ -37,7 +37,7 @@ public class AuthentifizierungTechnicalException extends SicherheitTechnicalRunt
      *            Detail-Text der in die Fehlermeldung übernommen werden soll.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      */
     public AuthentifizierungTechnicalException(Throwable throwable, String detailText) {
@@ -59,7 +59,7 @@ public class AuthentifizierungTechnicalException extends SicherheitTechnicalRunt
      *      
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      */
     public AuthentifizierungTechnicalException(Throwable throwable) {

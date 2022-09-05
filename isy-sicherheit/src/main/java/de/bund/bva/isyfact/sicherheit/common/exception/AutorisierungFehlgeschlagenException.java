@@ -55,7 +55,7 @@ public class AutorisierungFehlgeschlagenException extends SicherheitTechnicalRun
      *            als Fehler-Nachricht für die Exception verwendet wird aus einem ResourceBundle zu laden.
      * @param parameter
      *            Die Parameter. Parameter für die möglichen Variablen in einer Fehler-Nachricht.
-     *            <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Variablen zu ersetzen sind.
+     *            <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Variablen zu ersetzen sind.
      */
     public AutorisierungFehlgeschlagenException(String ausnahmeID, String... parameter) {
         super(ausnahmeID, parameter);
@@ -63,8 +63,8 @@ public class AutorisierungFehlgeschlagenException extends SicherheitTechnicalRun
 
     /**
      * Erstellt eine neue fachliche <i>checked</i> Exception mit einer Ausnahme-ID für den Fehlertext und dem
-     * übergebenen Grund mit dem Fehlertext basierend auf <tt>(cause==null ? null : cause.toString())</tt>
-     * (was normalerweise die Klasse und den Fehlertext von <tt>cause</tt> enthält).
+     * übergebenen Grund mit dem Fehlertext basierend auf <code>(cause==null ? null : cause.toString())</code>
+     * (was normalerweise die Klasse und den Fehlertext von <code>cause</code> enthält).
      * <p>
      * Dieser Konstruktor ist sinnvoll für Fehler, die durch diese Exception gewrapped werden sollen, z.B.
      * {@link java.security.PrivilegedActionException}).
@@ -74,7 +74,7 @@ public class AutorisierungFehlgeschlagenException extends SicherheitTechnicalRun
      *            als Fehler-Nachricht für die Exception verwendet wird aus einem ResourceBundle zu laden.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      */
     public AutorisierungFehlgeschlagenException(String ausnahmeID, Throwable throwable) {

@@ -78,7 +78,7 @@ public class RolleImpl implements Rolle {
     }
 
     /**
-     * This method gets the field <tt>name</tt>.
+     * This method gets the field <code>name</code>.
      *
      * @return the field name
      */
@@ -88,7 +88,7 @@ public class RolleImpl implements Rolle {
     }
 
     /**
-     * This method sets the field <tt>name</tt>.
+     * This method sets the field <code>name</code>.
      *
      * @param name
      *            the new value of the field name
