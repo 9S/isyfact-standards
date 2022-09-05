@@ -16,6 +16,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot:2.7.1")
     implementation("org.springframework.boot:spring-boot-autoconfigure:2.7.1")
     implementation("org.springframework.boot:spring-boot-configuration-processor:2.7.1")
+    implementation("jakarta.validation:jakarta.validation-api:3.0.2")
     testImplementation("org.springframework:spring-test:5.3.21")
     testImplementation("org.springframework.boot:spring-boot-test:2.7.1")
     testImplementation("org.junit.vintage:junit-vintage-engine:5.8.2")
