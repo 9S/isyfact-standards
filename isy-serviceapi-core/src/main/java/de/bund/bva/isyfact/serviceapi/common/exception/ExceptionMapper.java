@@ -126,13 +126,13 @@ public class ExceptionMapper {
      * @param transportExceptionClass The business or technical TransportException
      * @param parameter               Variable number of parameter values. Parameter value for the possible variable in an error message.
      * @return The TransportException.
-     * @throws IllegalArgumentException In exceptional cases this exception can occur if one of the following conditions is met:
+     * @throws IllegalArgumentException In exceptional cases this exception can occur if one of the following conditions is met:<ul>
      *                                  <li>{@code null} was passed as the value for the parameter {@code transportExceptionClass}.</li>
      *                                  <li>{@code fehlertextProvider}</li>
      *                                  <li>the TransportException has no constructor with the parameters (String.class, String.class, String.class).</li>
      *                                  <li>the TransportException is an interface or an abstract implementation.</li>
      *                                  <li>access to the TransportException violates the Java security policy.</li>
-     *                                  <li>an exception occurs within the constructor of the TransportException to be created.</li>
+     *                                  <li>an exception occurs within the constructor of the TransportException to be created.</li></ul>
      */
     public static <T extends PlisToException> T createToException(String ausnahmeId,
                                                                   FehlertextProvider fehlertextProvider, Class<T> transportExceptionClass, String... parameter) {
