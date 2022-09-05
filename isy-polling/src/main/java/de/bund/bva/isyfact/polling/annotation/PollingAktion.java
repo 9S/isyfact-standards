@@ -33,7 +33,7 @@ import java.lang.annotation.Target;
 public @interface PollingAktion {
 
     /**
-     * Name des Polling-Clusters, für den eine Polling-Aktion durchgeführt wird.
+     * @return Name des Polling-Clusters, für den eine Polling-Aktion durchgeführt wird.
      */
     String pollingCluster();
 
