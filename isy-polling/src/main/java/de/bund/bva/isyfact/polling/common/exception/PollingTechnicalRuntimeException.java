@@ -61,7 +61,7 @@ public abstract class PollingTechnicalRuntimeException extends TechnicalRuntimeE
      *            laden.
      * @param parameter
      *            Die Parameter. Parameter für die möglichen Variablen in einer Fehler-Nachricht.
-     *            <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Variablen zu ersetzen sind.
+     *            <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Variablen zu ersetzen sind.
      */
     public PollingTechnicalRuntimeException(String ausnahmeID, String... parameter) {
         super(ausnahmeID, FEHLERTEXT_PROVIDER, parameter);
@@ -79,7 +79,7 @@ public abstract class PollingTechnicalRuntimeException extends TechnicalRuntimeE
      *            als Fehler-Nachricht für die Exception verwendet wird aus einem ResourceBundle zu laden.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      */
     public PollingTechnicalRuntimeException(String ausnahmeID, Throwable throwable) {
@@ -98,10 +98,10 @@ public abstract class PollingTechnicalRuntimeException extends TechnicalRuntimeE
      *            als Fehler-Nachricht für die Exception verwendet wird aus einem ResourceBundle zu laden.
      * @param parameter
      *            Die Parameter. Parameter für die möglichen Variablen in einer Fehler-Nachricht.
-     *            <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Variablen zu ersetzen sind.
+     *            <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Variablen zu ersetzen sind.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert für die spätere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      */
     public PollingTechnicalRuntimeException(String ausnahmeID, Throwable throwable,
