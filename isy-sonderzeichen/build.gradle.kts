@@ -8,6 +8,7 @@ plugins {
 
 dependencies {
     implementation(project(":isy-logging"))
+    implementation(project(":isy-exception-core"))
     implementation("org.springframework:spring-beans:5.3.21")
     testImplementation("junit:junit:4.13.2")
     compileOnly("com.github.spotbugs:spotbugs-annotations:4.2.1")
