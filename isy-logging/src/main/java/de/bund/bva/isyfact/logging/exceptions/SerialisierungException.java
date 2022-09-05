@@ -61,7 +61,7 @@ public class SerialisierungException extends LoggingTechnicalRuntimeException {
      *            zu laden.
      * @param throwable
      *            Der Grund. Throwable wird gespeichert hf&uuml;r die sp&auml;tere Nutzung durch die Methode
-     *            {@link #getCause()}. <tt>null</tt> als Wert ist erlaubt und bedeutet, dass kein Grund
+     *            {@link #getCause()}. <code>null</code> als Wert ist erlaubt und bedeutet, dass kein Grund
      *            existiert oder der Grund nicht bekannt ist.
      * @param parameter
      *            Variable Anzahl an Parameterwerten. Parameter f&uml;r die m&ouml;glichen Variablen in einer
