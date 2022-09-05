@@ -10,11 +10,11 @@ import java.util.Iterator;
 /**
  * Adapts the original {@link HealthContributorRegistry} linking it to the cache, so that calls to
  * {@link HealthIndicator#health()} are replaces by the cached values.
- * <p/>
+ * <p>
  * {@link HealthContributorRegistry#registerContributor(String, Object)} and
  * {@link HealthContributorRegistry#unregisterContributor(String)} remain uncached modifying the original
  * registry.
- * <p/>
+ * </p>
  * {@link HealthContributor}s added to the adapted or original registry between two update calls will return
  * {@link org.springframework.boot.actuate.health.Status#UNKNOWN} until updated.
  *
