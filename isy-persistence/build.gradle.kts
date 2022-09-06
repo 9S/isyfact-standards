@@ -24,7 +24,7 @@ dependencies {
     implementation("javax.persistence:javax.persistence-api:2.2")
     implementation("com.oracle.database.jdbc:ucp:19.11.0.0")
     implementation("org.springframework.boot:spring-boot-test-autoconfigure:2.7.1")
-    implementation("jakarta.validation:jakarta.validation-api:3.0.2")
+    implementation("jakarta.validation:jakarta.validation-api:2.0.2")
     testImplementation("org.mockito:mockito-core:4.5.1")
     testImplementation("org.springframework:spring-test:5.3.21")
     testImplementation("org.junit.vintage:junit-vintage-engine:5.8.2")
